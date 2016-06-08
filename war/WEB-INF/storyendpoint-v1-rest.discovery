@@ -6,8 +6,8 @@
  "name": "storyendpoint",
  "version": "v1",
  "description": "This is an API",
- "ownerDomain": "ohauge.net",
- "ownerName": "ohauge.net",
+ "ownerDomain": "andreydanil.net",
+ "ownerName": "andreydanil.net",
  "packagePath": "story.entity",
  "icons": {
   "x16": "http://www.google.com/images/icons/product/search-16.gif",

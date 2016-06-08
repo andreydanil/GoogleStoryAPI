@@ -1,4 +1,4 @@
-package net.ohauge.story;
+package net.andreydanil.story;
 
 import java.io.IOException;
 import javax.servlet.http.*;

@@ -24,8 +24,8 @@
     "type" : "no-cache",
     "maxAge" : 0
   },
-  "ownerDomain" : "ohauge.net",
-  "ownerName" : "ohauge.net",
+  "ownerDomain" : "andreydanil.net",
+  "ownerName" : "andreydanil.net",
   "packagePath" : "story.entity",
   "methods" : {
     "storyendpoint.listStory" : {
@@ -35,7 +35,7 @@
       "scopes" : [ "https://www.googleapis.com/auth/userinfo.email" ],
       "audiences" : [ ],
       "clientIds" : [ "292824132082.apps.googleusercontent.com" ],
-      "rosyMethod" : "net.ohauge.story.entity.StoryEndpoint.listStory",
+      "rosyMethod" : "net.andreydanil.story.entity.StoryEndpoint.listStory",
       "request" : {
         "parameters" : {
           "cursor" : {
@@ -60,7 +60,7 @@
       "scopes" : [ "https://www.googleapis.com/auth/userinfo.email" ],
       "audiences" : [ ],
       "clientIds" : [ "292824132082.apps.googleusercontent.com" ],
-      "rosyMethod" : "net.ohauge.story.entity.StoryEndpoint.getStory",
+      "rosyMethod" : "net.andreydanil.story.entity.StoryEndpoint.getStory",
       "request" : {
         "parameters" : {
           "id" : {
@@ -81,7 +81,7 @@
       "scopes" : [ "https://www.googleapis.com/auth/userinfo.email" ],
       "audiences" : [ ],
       "clientIds" : [ "292824132082.apps.googleusercontent.com" ],
-      "rosyMethod" : "net.ohauge.story.entity.StoryEndpoint.removeStory",
+      "rosyMethod" : "net.andreydanil.story.entity.StoryEndpoint.removeStory",
       "request" : {
         "parameters" : {
           "id" : {
@@ -102,7 +102,7 @@
       "scopes" : [ "https://www.googleapis.com/auth/userinfo.email" ],
       "audiences" : [ ],
       "clientIds" : [ "292824132082.apps.googleusercontent.com" ],
-      "rosyMethod" : "net.ohauge.story.entity.StoryEndpoint.updateStory",
+      "rosyMethod" : "net.andreydanil.story.entity.StoryEndpoint.updateStory",
       "request" : {
         "body" : "autoTemplate(backendRequest)",
         "bodyName" : "resource"
@@ -118,7 +118,7 @@
       "scopes" : [ "https://www.googleapis.com/auth/userinfo.email" ],
       "audiences" : [ ],
       "clientIds" : [ "292824132082.apps.googleusercontent.com" ],
-      "rosyMethod" : "net.ohauge.story.entity.StoryEndpoint.insertStory",
+      "rosyMethod" : "net.andreydanil.story.entity.StoryEndpoint.insertStory",
       "request" : {
         "body" : "autoTemplate(backendRequest)",
         "bodyName" : "resource"
@@ -164,19 +164,19 @@
       }
     },
     "methods" : {
-      "net.ohauge.story.entity.StoryEndpoint.listStory" : {
+      "net.andreydanil.story.entity.StoryEndpoint.listStory" : {
         "response" : {
           "$ref" : "CollectionResponse_Story"
         }
       },
-      "net.ohauge.story.entity.StoryEndpoint.getStory" : {
+      "net.andreydanil.story.entity.StoryEndpoint.getStory" : {
         "response" : {
           "$ref" : "Story"
         }
       },
-      "net.ohauge.story.entity.StoryEndpoint.removeStory" : {
+      "net.andreydanil.story.entity.StoryEndpoint.removeStory" : {
       },
-      "net.ohauge.story.entity.StoryEndpoint.updateStory" : {
+      "net.andreydanil.story.entity.StoryEndpoint.updateStory" : {
         "request" : {
           "$ref" : "Story"
         },
@@ -184,7 +184,7 @@
           "$ref" : "Story"
         }
       },
-      "net.ohauge.story.entity.StoryEndpoint.insertStory" : {
+      "net.andreydanil.story.entity.StoryEndpoint.insertStory" : {
         "request" : {
           "$ref" : "Story"
         },

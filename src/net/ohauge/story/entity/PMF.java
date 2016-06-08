@@ -1,4 +1,4 @@
-package net.ohauge.story.entity;
+package net.andreydanil.story.entity;
 
 import javax.jdo.JDOHelper;
 import javax.jdo.PersistenceManagerFactory;

@@ -1,6 +1,6 @@
-package net.ohauge.story.entity;
+package net.andreydanil.story.entity;
 
-import net.ohauge.story.entity.PMF;
+import net.andreydanil.story.entity.PMF;
 
 import com.google.api.server.spi.config.Api;
 import com.google.api.server.spi.config.ApiMethod;
@@ -19,7 +19,7 @@ import javax.persistence.EntityNotFoundException;
 import javax.jdo.PersistenceManager;
 import javax.jdo.Query;
 
-@Api(name = "storyendpoint", namespace = @ApiNamespace(ownerDomain = "ohauge.net", ownerName = "ohauge.net", packagePath = "story.entity") )
+@Api(name = "storyendpoint", namespace = @ApiNamespace(ownerDomain = "andreydanil.net", ownerName = "andreydanil.net", packagePath = "story.entity") )
 public class StoryEndpoint {
 
 	/**
